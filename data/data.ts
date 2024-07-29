@@ -4,10 +4,8 @@ export type NavItem = {
 };
 
 export const navItems: NavItem[] = [
-  { name: "Home", link: "/" },
-  { name: "About", link: "/#about" },
-  { name: "Rooms", link: "/Rooms" },
-  { name: "Restaurant", link: "/Restaurant" },
-  { name: "Conference hall", link: "/#conference-hall" },
-  { name: "Contacts", link: "/#contacts" },
+  { name: "Demos", link: "/" },
+  { name: "Pages", link: "/#about" },
+  { name: "Support", link: "/Rooms" },
+  { name: "Contact", link: "/Restaurant" },
 ];
