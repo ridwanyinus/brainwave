@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="pt-6  px-5 lg:px-[1.9rem] xl:px-10 desktop:px-12 largesceen:px-36 fourk:px-60  w-full  pb-14 lg:pb-20 relative z-10">
+    <nav className="pt-6 px-5 lg:px-[1.9rem] xl:px-10 desktop:px-12 fourk:px-60  w-full relative z-10">
       <section className="flex justify-between items-center">
         <Link href="/" className="text-white text-2xl 2xl:text-[1.75rem] logo relative z-[999]">
           Brainwave.io
@@ -27,9 +27,7 @@ const Navbar = () => {
             </ul>
           ))}
 
-          <Link
-            href="/"
-            className="bg-red hover:bg-opacity-90 transition-colors py-2 xl:py-3 px-4 xl:px-6 text-sm xl:text-base 2xl:text-[1.063rem]  text-white font-bold tracking-[-0.5px] rounded-lg ">
+          <Link href="/" className="bg-red  hover:bg-rose-700 transition-colors py-2 xl:py-3 px-4 xl:px-6 text-sm xl:text-base 2xl:text-[1.063rem]  text-white font-bold tracking-[-0.5px] rounded-lg ">
             Get Started Now
           </Link>
         </div>
@@ -45,7 +43,7 @@ const Navbar = () => {
 
           {toggleMenu && (
             <div className="bg-hero">
-              <div className="absolute overflow-hidden w-[200px] sm:w-[250px] h-screen right-0  top-0  scale-up-hor-right transition-all pt-28  ">
+              <div className="absolute overflow-hidden w-52 sm:w-60 h-screen right-0  top-0  scale-up-hor-right transition-all pt-28  ">
                 {navItems.map((item, idx: number) => (
                   <ul key={`link=${idx}`}>
                     <li className="py-1 mb-4">
