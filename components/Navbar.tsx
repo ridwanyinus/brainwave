@@ -42,10 +42,10 @@ const Navbar = () => {
           )}
 
           {toggleMenu && (
-            <div className="bg-hero">
-              <div className="absolute overflow-hidden w-52 sm:w-60 h-screen right-0  top-0  scale-up-hor-right transition-all pt-28  ">
+            <div className="flex flex-col justify-end items-end w-full">
+              <div className="absolute overflow-hidden w-screen  h-screen right-0  top-0  scale-up-hor-right transition-all pt-28  bg-hero pl-12 md:pl-20">
                 {navItems.map((item, idx: number) => (
-                  <ul key={`link=${idx}`}>
+                  <ul key={`link=${idx}`} className="">
                     <li className="py-1 mb-4">
                       <Link href={item.link} className="text-2xl small:text-3xl transition-all text-right leading-normal text-white font-semibold ">
                         {item.name}
