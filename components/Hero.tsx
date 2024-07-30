@@ -57,7 +57,7 @@ const Hero = () => {
           <Image src={dots} alt="dots" className="absolute -right-7 2xl:-right-10 -top-8 2xl:-top-10 w-[4.688rem] desktop:w-[5.5rem] 2xl:w-auto" />
         </div>
       </section>
-      <Image src={wave} alt="wave" className="w-full absolute bottom-0 largesceen:-bottom-12 right-0 z-50 " />
+      <Image src={wave} alt="wave" className="w-screen absolute -bottom-0 sm:bottom-0 largesceen:-bottom-12 right-0 z-50 " />
     </main>
   );
 };
