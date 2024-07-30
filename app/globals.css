@@ -131,3 +131,29 @@
 .app2_shadow {
   box-shadow: 0px 2px 124px 0px rgba(0, 0, 0, 0.17);
 }
+
+.oval {
+  opacity: 0.0361;
+  background: #fff;
+  width: 1151px;
+  height: 1151px;
+  flex-shrink: 0;
+}
+
+.oval2 {
+  width: 1645px;
+  height: 1644px;
+  flex-shrink: 0;
+  border-radius: 1645px;
+  opacity: 0.0458;
+  background: #fff;
+}
+
+.oval3 {
+  border-radius: 2243px;
+  opacity: 0.0507;
+  background: #fff;
+  width: 2243px;
+  height: 2242px;
+  flex-shrink: 0;
+}

@@ -9,7 +9,7 @@ import dots from "@/public/Dots.svg";
 import wave from "@/public/Wave.svg";
 const Hero = () => {
   return (
-    <main className="relative pt-28 2xl:pt-32 overflow-hidden">
+    <main className="relative pt-28 2xl:pt-32 overflow-hidden z-10">
       <section className="flex flex-col items-center lg:items-start lg:flex-row justify-center gap-x-36 desktop:gap-x-40 2xl:gap-x-36 largesceen:gap-x-0 largesceen:justify-between px-5 lg:px-[1.9rem]x l:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem]">
         <div>
           <h1 className="text-white leading-[108.333%] text-3xl xs:text-4xl text-center sm:text-start sm:text-5xl xl:text-6xl largesceen:text-7xl tracking-[-2px] font-bold sm:w-[25rem] xl:w-[33.813rem] mb-7">
