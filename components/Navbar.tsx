@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="pt-6 px-5 lg:px-[1.9rem] xl:px-10 desktop:px-12 fourk:px-60  w-full relative z-10">
+    <nav className="pt-6 px-5 lg:px-[1.9rem] xl:px-10 desktop:px-12 fourk:px-60  w-full relative z-[999]">
       <section className="flex justify-between items-center">
         <Link href="/" className="text-white text-2xl 2xl:text-[1.75rem] logo relative z-[999]">
           Brainwave.io
@@ -42,7 +42,7 @@ const Navbar = () => {
           )}
 
           {toggleMenu && (
-            <div className="flex flex-col justify-end items-end w-full">
+            <div className="flex flex-col justify-end items-end w-full z-[999]">
               <div className="absolute overflow-hidden w-screen  h-screen right-0  top-0  scale-up-hor-right transition-all pt-28  bg-hero pl-12 md:pl-20">
                 {navItems.map((item, idx: number) => (
                   <ul key={`link=${idx}`} className="">
