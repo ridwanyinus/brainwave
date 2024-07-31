@@ -157,3 +157,13 @@
   height: 2242px;
   flex-shrink: 0;
 }
+
+.team-bs {
+  box-shadow: 0px 22px 64px 0px rgba(22, 28, 45, 0.19);
+}
+
+.team_rectangle {
+  opacity: 0.0994;
+  border-radius: 10px;
+  background: #68d585;
+}
