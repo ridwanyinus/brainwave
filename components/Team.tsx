@@ -116,7 +116,7 @@ const Team = () => {
         </section>
 
         <section className="relative mt-2 sm:mt-4 lg:mt-0">
-          <Image src={app} alt="app" className="rounded-lg sm:rounded-[0.938rem] app2 h-[22rem] sm:h-[28rem] desktop:h-[31.375rem]  largesceen:h-full w-[14rem] xs:w-[16.125rem] largesceen:w-[17.5rem] z-10 relative" />
+          <Image src={app} alt="app" className="rounded-lg sm:rounded-[0.938rem] app2 h-[22rem] sm:h-[28rem] desktop:h-[31.375rem] max-lg:object-cover largesceen:h-full w-[14rem] xs:w-[16.125rem] largesceen:w-[17.5rem] z-10 relative" />
           <Image src={app_content} alt="app" className="absolute -left-8 xs:-left-10 sm:-left-28 lg:-left-[10rem] top-12 desktop:top-20 largesceen:top-24 app2-content w-[8rem] lg:w-[12.313rem] largesceen:w-[13rem] z-20" />
 
           <div className="z-20 app-content_general w-[7rem] sm:w-[8rem] lg:w-[10rem] largesceen:w-[11.875rem] h-[7rem] sm:h-[8rem] lg:h-[10rem] largesceen:h-[11.875rem] absolute bottom-12 sm:bottom-28 desktop:bottom-32 largesceen:bottom-[10.3rem] -left-10 sm:-left-16 flex flex-col justify-center items-center">
@@ -132,7 +132,7 @@ const Team = () => {
           </div>
 
           <div>
-            <Image src={app_contect_dot} alt="dots" className="max-xs:hidden absolute bottom-4 sm:bottom-20 lg:bottom-10 desktop:bottom-20 largesceen:bottom-32 -left-[5.2rem] sm:-left-[7.5rem] h-[3rem] sm:h-[4rem] lg:h-[8.688rem] desktop:h-auto" />
+            <Image src={app_contect_dot} alt="dots" className="max-xs:hidden absolute bottom-6 sm:bottom-20 lg:bottom-10 desktop:bottom-20 largesceen:bottom-32 -left-[5.2rem] sm:-left-[7.5rem] h-[3rem] sm:h-[4rem] lg:h-[8.688rem] desktop:h-auto" />
             <div className="app-content_bg absolute -top-4 sm:-top-8 -right-5 sm:-right-8 h-[13.5rem] largesceen:h-60 w-[10.938rem] largesceen:w-48 "></div>
           </div>
         </section>
