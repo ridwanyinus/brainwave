@@ -95,7 +95,7 @@ const Team = () => {
         </section>
       </div>
 
-      <section className="py-16 lg:py-20 2xl:py-32  xl:mt-20 largesceen:mt-28 flex flex-col lg:flex-row justify-center lg:gap-x-44 xl:gap-x-56 2xl:gap-x-72 largesceen:gap-x-96 items-center">
+      <section className="pt-16 lg:pt-20 2xl:pt-32  xl:mt-20 largesceen:mt-28 flex flex-col lg:flex-row justify-center lg:gap-x-44 xl:gap-x-56 2xl:gap-x-72 largesceen:gap-x-96 items-center">
         <section className="max-lg:py-16">
           <h1 className="text-dark text-3xl xl:text-4xl 2xl:text-5xl largesceen:text-6xl font-bold w-[15rem] xl:w-[20rem] 2xl:w-[23.438rem] largesceen:w-[32rem] tracking-[-1.8px] leading-[120.833%] mb-2 lg:mb-4 fourk:mb-6">
             Organize remote team fast & easily.
