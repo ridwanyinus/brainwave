@@ -8,15 +8,17 @@ const HowItWorks = () => {
         With lots of unique blocks, you can easily build a page easily without any coding.{" "}
       </p>
 
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col sm:flex-row max-sm:gap-y-8 justify-between items-center mt-16">
         {how.map((item, idx: number) => (
-          <div key={idx} >
-            <div>
-              <p>{item.number}</p>
+          <div key={idx} className="flex flex-col justify-center items-center">
+            <div className="bg-red rounded-full py-2 lg:py-3 px-4 xl:py-4 lg:px-6  mb-8  lg:mb-12">
+              <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold">{item.number}</p>
             </div>
 
-            <h3>{item.title}</h3>
-            <p>{item.text}</p>
+            <h3 className="tracking-[-0.2px]  leading-[168.421%] text-sm xl:text-base  desktop:text-lg largesceen:text-xl fourk:text-2xl text-dark font-bold mb-2 lg:mb-4">{item.title}</h3>
+            <p className="text-center w-[13rem] sm:w-[10rem] md:w-[13rem] lg:w-[15rem] xl:w-[18rem] desktop:w-[21.188rem]  text-dark text-opacity-[0.7] text-xs xl:text-base  largesceen:text-lg fourk:text-xl leading-[170.588%]">
+              {item.text}
+            </p>
           </div>
         ))}
       </div>
