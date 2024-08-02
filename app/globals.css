@@ -189,3 +189,7 @@
   background: #f64b4b;
   box-shadow: 0px 32px 64px 0px rgba(22, 28, 45, 0.26);
 }
+
+.features-bg {
+  background: linear-gradient(225deg, #313c59 0%, #161c2d 100%);
+}
