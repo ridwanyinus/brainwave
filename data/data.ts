@@ -64,3 +64,25 @@ export const experience = [
   { img: experience2, text: "“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users who want success.”", author: "Barry Young" },
   { img: experience3, text: "“Must have book for all, who want to be Product Designer or Interaction Designer.”", author: "Esther Allison" },
 ];
+
+export const pricing = [
+  {
+    plan: "Starter",
+    amount: "$19",
+    duration: "/ mo",
+    features1: "Upto 100 Team Member",
+    features2: "100 GB Cloud Storage",
+    features3: "Unlimited Meetings",
+    features4: "Premium Support",
+  },
+
+  {
+    plan: "Unlimited",
+    amount: "$99",
+    duration: "/ mo",
+    features1: "Unlimited Team Membe",
+    features2: "Unlimited Cloud Store",
+    features3: "Unlimited Meetings",
+    features4: "Premium Support",
+  },
+];
