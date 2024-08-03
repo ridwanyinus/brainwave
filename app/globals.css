@@ -193,3 +193,12 @@
 .features-bg {
   background: linear-gradient(225deg, #313c59 0%, #161c2d 100%);
 }
+
+.line {
+  stroke-width: 3px;
+  background: #fff;
+  opacity: 0.1009;
+  width: 161px;
+  height: 1px;
+}
+
