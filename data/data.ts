@@ -1,3 +1,9 @@
+import { FaFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import appStore from "@/public/App Store.png";
+import playstore from "@/public/Play Store.png";
 import feature1 from "@/public/roadmap.svg";
 import feature2 from "@/public/users-wm.svg";
 import feature3 from "@/public/share-91.svg";
@@ -86,3 +92,49 @@ export const pricing = [
     features4: "Premium Support",
   },
 ];
+
+export const footer = [
+  {
+    title: "Company",
+    links: [
+      { name: "About us", link: "/" },
+      { name: "Contact us", link: "/" },
+      { name: "Careers", link: "/" },
+      { name: "Press", link: "/" },
+    ],
+  },
+
+  {
+    title: "Product",
+    links: [
+      { name: "Features", link: "/" },
+      { name: "Pricing", link: "/" },
+      { name: "News", link: "/" },
+      { name: "Help desk", link: "/" },
+      { name: "Support", link: "/" },
+    ],
+  },
+
+  {
+    title: "Legal",
+    links: [
+      { name: "Privacy Policy", link: "/" },
+      { name: "Terms & Conditions", link: "/" },
+      { name: "Return Policy", link: "/" },
+    ],
+  },
+
+  {
+    title: "Download Our App",
+    images: [
+      {
+        img: appStore,
+      },
+      {
+        img: playstore,
+      },
+    ],
+  },
+];
+
+export const social = [{ image: FaTwitter }, { image: FaFacebook }, { image: FaLinkedin }, { image: FaInstagram }];
