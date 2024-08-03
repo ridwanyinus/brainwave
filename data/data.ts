@@ -68,7 +68,7 @@ export const experience = [
 export const pricing = [
   {
     plan: "Starter",
-    amount: "$19",
+    amount: "19",
     duration: "/ mo",
     features1: "Upto 100 Team Member",
     features2: "100 GB Cloud Storage",
@@ -78,9 +78,9 @@ export const pricing = [
 
   {
     plan: "Unlimited",
-    amount: "$99",
+    amount: "99",
     duration: "/ mo",
-    features1: "Unlimited Team Membe",
+    features1: "Unlimited Team Member",
     features2: "Unlimited Cloud Store",
     features3: "Unlimited Meetings",
     features4: "Premium Support",
