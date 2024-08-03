@@ -6,10 +6,11 @@ import button from "@/public/Button.svg";
 import Link from "next/link";
 import dot from "@/public/Dots-Feature.svg";
 import { features } from "@/data/data";
+import Experience from "./Experience";
 const Features = () => {
   return (
     <section className="py-16 lg:py-20 2xl:py-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem] xl:mt-20 relative features-bg min-h-screen">
-      <Image src={wave} alt="wave" className="absolute top-0 w-full left-0" />
+      <Image src={wave} alt="wave" className="absolute top-0 max-lg:w-screen w-full left-0" />
 
       <div className=" flex flex-col justify-center items-center ">
         <Image
@@ -34,7 +35,7 @@ const Features = () => {
           {features.map((items, idx: number) => (
             <div key={idx} className="flex flex-col gap-y-2 sm:gap-y-6 desktop:gap-y-8 relative">
               <Image src={items.img} alt="features" className="absolute -left-10 desktop:-left-16 w-7 md:w-[2rem] desktop:w-auto" />
-              <h3 className="text-white tracking-[-0.2px]  leading-[168.421%] text-sm xl:text-base  desktop:text-lg largesceen:text-xl fourk:text-2xl">{items.title}</h3>
+              <h3 className="text-white tracking-[-0.5px]  leading-[168.421%] text-sm xl:text-base  desktop:text-lg largesceen:text-xl fourk:text-2xl">{items.title}</h3>
               <p className="w-[13rem] sm:w-[13rem] lg:w-[15rem] xl:w-[18rem] largesceen:w-[20.188rem]  text-white text-opacity-[0.65] text-xs xl:text-base  largesceen:text-lg fourk:text-xl leading-[170.588%]">
                 {items.text}
               </p>
@@ -44,9 +45,7 @@ const Features = () => {
       </main>
       <div className="line mx-auto block my-10 sm:my-16 lg:my-20"></div>
 
-      <h1 className="text-white font-bold text-xl sm:text-2xl xl:text-3xl 2xl:text-[32px] tracking-[-1.2px] leading-[137.5%] mx-auto xs:w-[20rem] sm:w-[30rem] xl:w-[34.375rem] largesceen:w-[40rem]  text-center  largesceen:text-4xl">
-        <span className="border-b-4 border-[#68D585] leading-[137.5%] inline-block">1,749 remote teams</span> have shared their experience with our app!
-      </h1>
+      <Experience />
     </section>
   );
 };
