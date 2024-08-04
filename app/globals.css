@@ -206,7 +206,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 994;
   background: #f4f7fa;
   inset-inline-start: 0;
   inset-inline-end: 0;
@@ -226,16 +226,11 @@
   color: #161c2d;
 }
 
-.is-sticky .active {
-  color: #f64b4b !important;
-  font-weight: bold !important;
-  padding-bottom: 0.1rem;
-  border-bottom: 1px solid #fcd043;
-}
-
 @media (max-width: 1023px) {
   .is-sticky a {
-    display: none;
     color: #ffffff;
+  }
+  .is-sticky .logo {
+    color: #161c2d;
   }
 }

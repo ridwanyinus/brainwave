@@ -24,7 +24,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <nav className={`${scroll ? "is-sticky" : ""} pt-6 px-5 lg:px-[1.9rem] xl:px-10 desktop:px-12 fourk:px-60  w-full relative z-[999]`}>
+    <nav className={`${scroll ? "is-sticky" : ""} pt-6 px-5 lg:px-[1.9rem] xl:px-10 desktop:px-12 fourk:px-60  w-full relative z-[999]    `}>
       <section className="flex justify-between items-center">
         <Link href="/" className="text-white text-2xl 2xl:text-[1.75rem] logo relative z-[999]">
           Brainwave.io
@@ -51,7 +51,6 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Mobile navbar */}
 
         {/* Mobile navbar */}
 
@@ -63,7 +62,7 @@ const Navbar = () => {
           )}
 
           {toggleMenu && (
-            <div className="fixed top-0 right-0 w-full h-screen  overflow-hidden ">
+            <div className="fixed top-0 right-0  h-screen  overflow-hidden ">
               <div className="flex flex-col justify-start bg-hero items-start w-full h-full pt-28 px-12 md:px-20 transition-transform transform scale-up-hor-right">
                 {navItems.map((item, idx) => (
                   <ul key={idx} className="mb-4">
