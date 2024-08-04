@@ -53,30 +53,31 @@ const Navbar = () => {
 
         {/* Mobile navbar */}
 
-        <div className="lg:hidden">
+        {/* Mobile navbar */}
+
+        <div className="lg:hidden z-[995]">
           {toggleMenu ? (
-            <IoClose size={30} color="#FFFFFF" onClick={() => setToggleMenu(false)} className="relative z-10" />
+            <IoClose size={30} color="#FFFFFF" onClick={() => setToggleMenu(false)} className="relative z-10 cursor-pointer" />
           ) : (
-            <FaBarsStaggered size={30} onClick={() => setToggleMenu(true)} className="svg text-white relative z-10" />
+            <FaBarsStaggered size={30} onClick={() => setToggleMenu(true)} className="svg text-white relative z-10 cursor-pointer" />
           )}
 
           {toggleMenu && (
-            <div className="flex flex-col justify-end items-end w-full z-[999]">
-              <div className="fixed overflow-hidden w-screen  h-screen right-0  top-0  scale-up-hor-right transition-all pt-28  bg-hero pl-12 md:pl-20">
-                {navItems.map((item, idx: number) => (
-                  <ul key={`link=${idx}`} className="">
-                    <li className="py-1 mb-4">
-                      <Link href={item.link} className="text-2xl small:text-3xl transition-all text-right leading-normal text-white font-semibold ">
+            <div className="fixed top-0 right-0 w-full h-screen  overflow-hidden ">
+              <div className="flex flex-col justify-start bg-hero items-start w-full h-full pt-28 px-12 md:px-20 transition-transform transform scale-up-hor-right">
+                {navItems.map((item, idx) => (
+                  <ul key={idx} className="mb-4">
+                    <li className="py-1">
+                      <Link href={item.link} className="text-2xl small:text-3xl transition-all text-center text-white font-semibold">
                         {item.name}
                       </Link>
                     </li>
                   </ul>
                 ))}
                 <div className="mt-8">
-                  {" "}
                   <Link
                     href="/"
-                    className="bg-red hover:bg-opacity-90 transition-colors py-3 lg:py-2 xl:py-3 px-5 lg:px-4 xl:px-6 text-sm xl:text-base 2xl:text-[1.063rem]  text-white font-bold tracking-[-0.5px] rounded-lg">
+                    className="bg-red hover:bg-opacity-90 transition-colors py-3 lg:py-2 xl:py-3 px-5 lg:px-4 xl:px-6 text-sm xl:text-base 2xl:text-[1.063rem] text-white font-bold tracking-[-0.5px] rounded-lg">
                     Get Started Now
                   </Link>
                 </div>
