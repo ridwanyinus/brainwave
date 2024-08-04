@@ -4,7 +4,7 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 const Footer = () => {
   return (
-    <main className="py-4 pt-16 lg:pt-20 2xl:pt-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem]">
+    <main id="footer" className="py-4 pt-16 lg:pt-20 2xl:pt-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem]">
       <section className="grid grid-cols-2 md:grid-cols-4 max-md:gap-y-4 place-items-center items-start justify-start">
         {footer.map((items, idx: number) => (
           <div key={idx}>

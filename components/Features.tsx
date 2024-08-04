@@ -9,7 +9,7 @@ import { features } from "@/data/data";
 import Experience from "./Experience";
 const Features = () => {
   return (
-    <section className="py-16 lg:py-20 2xl:py-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem] xl:mt-20 relative features-bg min-h-screen">
+    <section id="features" className="py-16 lg:py-20 2xl:py-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem] xl:mt-20 relative features-bg min-h-screen">
       <Image src={wave} alt="wave" className="absolute top-0 max-lg:w-screen w-full left-0" />
 
       <div className=" flex flex-col justify-center items-center ">

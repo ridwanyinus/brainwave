@@ -20,10 +20,10 @@ export type NavItem = {
 };
 
 export const navItems: NavItem[] = [
-  { name: "Demos", link: "/" },
-  { name: "Pages", link: "/" },
-  { name: "Support", link: "/" },
-  { name: "Contact", link: "/" },
+  { name: "About", link: "/#about" },
+  { name: "Pricing", link: "/#pricing" },
+  { name: "Features", link: "/#features" },
+  { name: "Contact", link: "/#footer" },
 ];
 
 export const how = [
