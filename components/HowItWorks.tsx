@@ -25,7 +25,7 @@ const HowItWorks = () => {
       <div className="flex flex-col sm:flex-row max-sm:gap-y-8 justify-between items-center mt-16">
         {how.map((item, idx: number) => (
           <div key={idx} className="flex flex-col justify-center items-center">
-            <div className="bg-red rounded-full py-2 lg:py-3 px-4 xl:py-4 lg:px-6  mb-8  lg:mb-12">
+            <div style={{ backgroundColor: item.bgColor }} className={` rounded-full py-2 lg:py-3 px-4 xl:py-4 lg:px-6  mb-8  lg:mb-12 `}>
               <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold">{item.number}</p>
             </div>
 

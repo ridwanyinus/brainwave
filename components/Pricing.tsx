@@ -39,7 +39,8 @@ const Pricing = () => {
 
             <Link
               href="/"
-              className="bg-red hover:bg-dark transition-colors py-2 xl:py-3 px-3 xs:px-5 lg:px-8 xl:px-10 text-sm xl:text-base 2xl:text-[1.063rem]  text-white font-bold tracking-[-0.5px] rounded-md lg:rounded-lg mt-7 block w-fit mx-auto">
+              style={{ backgroundColor: items.bgColor }}
+              className="hover:bg-green transition-colors py-2 xl:py-3 px-3 xs:px-5 lg:px-8 xl:px-10 text-sm xl:text-base 2xl:text-[1.063rem]  text-white font-bold tracking-[-0.5px] rounded-md lg:rounded-lg mt-7 block w-fit mx-auto">
               Get Started Now
             </Link>
           </div>

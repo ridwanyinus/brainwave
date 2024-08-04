@@ -27,9 +27,9 @@ export const navItems: NavItem[] = [
 ];
 
 export const how = [
-  { number: 1, title: "Install App", text: "With lots of unique blocks, you can easily build a page easily without any coding. " },
-  { number: 2, title: "Add Team Members", text: "With lots of unique blocks, you can easily build a page easily without any coding. " },
-  { number: 3, title: "Start Rolling!", text: "With lots of unique blocks, you can easily build a page easily without any coding. " },
+  { number: 1, title: "Install App", text: "With lots of unique blocks, you can easily build a page easily without any coding. ", bgColor: "#F64B4B" },
+  { number: 2, title: "Add Team Members", text: "With lots of unique blocks, you can easily build a page easily without any coding.", bgColor: "#68D585" },
+  { number: 3, title: "Start Rolling!", text: "With lots of unique blocks, you can easily build a page easily without any coding.", bgColor: "#473BF0" },
 ];
 
 export const features = [
@@ -80,6 +80,7 @@ export const pricing = [
     features2: "100 GB Cloud Storage",
     features3: "Unlimited Meetings",
     features4: "Premium Support",
+    bgColor: "#161C2D",
   },
 
   {
@@ -90,6 +91,7 @@ export const pricing = [
     features2: "Unlimited Cloud Store",
     features3: "Unlimited Meetings",
     features4: "Premium Support",
+    bgColor: "#F74D4D",
   },
 ];
 
