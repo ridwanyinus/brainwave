@@ -37,7 +37,7 @@ const Footer = () => {
           {social.map((item, idx: number) => (
             <div key={idx} className="">
               <Link href="/" className="">
-                <item.image className="text-dark hover:text-red text-xl lg:text-2xl desktop:text-3xl " />
+                <item.image className="text-dark hover:text-red text-xl lg:text-2xl 2xl:text-[1.7rem] " />
               </Link>
             </div>
           ))}

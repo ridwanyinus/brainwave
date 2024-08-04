@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
 import video from "@/public/video.png";
 import Image from "next/image";
 import wave from "@/public/Wave 2.svg";
@@ -8,6 +10,12 @@ import dot from "@/public/Dots-Feature.svg";
 import { features } from "@/data/data";
 import Experience from "./Experience";
 const Features = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 400,
+      easing: "ease",
+    });
+  }, []);
   return (
     <section id="features" className="py-16 lg:py-20 2xl:py-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem] xl:mt-20 relative features-bg min-h-screen">
       <Image src={wave} alt="wave" className="absolute top-0 max-lg:w-screen w-full left-0" />
@@ -26,7 +34,13 @@ const Features = () => {
         </Link>
       </div>
 
-      <main className="pt-28 sm:pt-36 md:pt-32 xl:pt-52 2xl:pt-60 largesceen:pt-[20rem]">
+      <main
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-offset="150"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="350"
+        className="pt-28 sm:pt-36 md:pt-32 xl:pt-52 2xl:pt-60 largesceen:pt-[20rem]">
         <h1 className="text-white text-3xl lg:text-4xl xl:text-[40px] desktop:text-5xl largesceen:text-6xl font-bold text-center mx-auto block tracking-[-1.8px]  xs:w-[20rem] sm:w-[23rem] lg:w-[28rem] xl:w-[33rem] desktop:w-[35rem] 2xl:w-[34rem] largesceen:w-[39.375rem]">
           We made this app to solve your problems.
         </h1>

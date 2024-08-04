@@ -226,6 +226,30 @@
   color: #161c2d;
 }
 
+.tf__scroll_btn {
+  animation: scroll_amini linear 2s infinite alternate;
+  -webkit-animation: scroll_amini linear 2s infinite alternate;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+@keyframes scroll_amini {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-scroll_amini {
+  animation: scroll_amini linear 2s infinite alternate;
+  -webkit-animation: scroll_amini linear 2s infinite alternate;
+}
+
 @media (max-width: 1023px) {
   .is-sticky a {
     color: #ffffff;
