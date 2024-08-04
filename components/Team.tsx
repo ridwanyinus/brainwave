@@ -32,7 +32,7 @@ const Team = () => {
       data-aos-easing="ease-in-sine"
       data-aos-duration="350"
       id="about"
-      className="py-16 lg:py-20 2xl:py-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem] xl:mt-20">
+      className="overflow-hidden py-16 lg:py-20 2xl:py-32 px-5 lg:px-[1.9rem] xl:px-20 desktop:px-28 2xl:px-48 largesceen:px-80 fourk:px-[40rem] xl:mt-20">
       <div className=" flex flex-col-reverse lg:flex-row justify-center lg:gap-x-44 xl:gap-x-56 2xl:gap-x-72 largesceen:gap-x-96 items-center">
         <section data-aos="fade-right" data-aos-delay="0" data-aos-offset="150" data-aos-easing="ease-in-sine" data-aos-duration="300" className="relative">
           <Image src={rectangle} alt="image of team" className="rounded-[0.625rem] w-[9rem] xs:w-[10rem] sm:w-[12rem] xl:w-[15.5rem] largesceen:w-[20.5rem] h-auto object-cover relative z-10" />
