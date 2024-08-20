@@ -35,8 +35,8 @@ const Footer = () => {
 
         <div className="flex gap-x-3 ">
           {social.map((item, idx: number) => (
-            <div key={idx} className="">
-              <Link href="/" className="">
+            <div key={idx}>
+              <Link href="/">
                 <item.image className="text-dark hover:text-red text-xl lg:text-2xl 2xl:text-[1.7rem] " />
               </Link>
             </div>
